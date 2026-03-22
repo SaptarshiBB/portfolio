@@ -51,7 +51,7 @@
 @layer components {
   /* Strict Container Alignment */
   .container-max {
-    @apply max-w-[1640px] mx-auto px-2 w-full;
+    @apply max-w-[1400px] mx-auto px-8 sm:px-16 md:px-24 lg:px-40 xl:px-48 w-full;
   }
 
   /* Section Spacing */
