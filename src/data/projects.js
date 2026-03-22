@@ -1,0 +1,40 @@
+const projects = [
+  {
+    id: 1,
+    title: 'AgroMart – Agricultural E-Commerce Platform',
+    description:
+      'A full-stack agricultural marketplace where users can buy grains, fertilizers, dairy, eggs, fruits, and vegetables. Features product listings, search filters, shopping cart, checkout system, and a secure farmer/admin dashboard for inventory and order tracking.',
+    image: 'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=600&h=400&fit=crop',
+    techStack: ['HTML', 'CSS', 'Tailwind CSS', 'PHP', 'JavaScript', 'MySQL'],
+    github: 'https://github.com/SaptarshiBB',
+    liveDemo: 'https://github.com/SaptarshiBB',
+    category: 'Full Stack',
+    featured: true,
+  },
+  {
+    id: 2,
+    title: 'CarYatra – Vehicle Rental Platform',
+    description:
+      'A MERN stack vehicle rental platform with 70+ vehicles across 30+ cities. Implements JWT authentication, role-based access control, WebSocket real-time availability updates, PayPal payments, admin dashboard, booking analytics, and advanced filtering.',
+    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&h=400&fit=crop',
+    techStack: ['MongoDB', 'Express', 'React', 'Node.js', 'JWT', 'WebSockets', 'PayPal SDK', 'Tailwind CSS'],
+    github: 'https://github.com/SaptarshiBB',
+    liveDemo: 'https://github.com/SaptarshiBB',
+    category: 'Full Stack',
+    featured: true,
+  },
+  {
+    id: 3,
+    title: 'Project Management Tool',
+    description:
+      'A comprehensive project management platform designed to streamline collaboration and task tracking. Features include intuitive task assignments, progress monitoring, team communication channels, and real-time updates for efficient workflow management.',
+    image: '/projects/project-management.png',
+    techStack: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'Redux'],
+    github: 'https://github.com/SaptarshiBB/project-management-tool',
+    liveDemo: 'https://github.com/SaptarshiBB/project-management-tool',
+    category: 'Full Stack',
+    featured: true,
+  },
+];
+
+export default projects;
