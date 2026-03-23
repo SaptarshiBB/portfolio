@@ -5,7 +5,7 @@ import { Mail, Phone, Github, Linkedin, Send, MapPin, ExternalLink, Sparkles } f
 const contactInfo = [
   { icon: Mail, label: 'Email', value: 'saptarshineymar88@gmail.com', href: 'mailto:saptarshineymar88@gmail.com' },
   { icon: Phone, label: 'Phone', value: '+91-6289672941', href: 'tel:+916289672941' },
-  { icon: MapPin, label: 'Location', value: 'West Bengal, India', href: 'https://www.google.com/maps/search/West+Bengal,+India' },
+  { icon: MapPin, label: 'Location', value: 'Punjab, India', href: 'https://www.google.com/maps/search/West+Bengal,+India' },
 ];
 
 const socialLinks = [
