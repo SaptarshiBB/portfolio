@@ -69,8 +69,7 @@ function HeroSection() {
                   {[
                     { label: 'Projects Built', value: '03+', color: 'text-primary' },
                     { label: 'Certifications', value: '03+', color: 'text-indigo-400' },
-                    { label: 'LeetCode Solved', value: '100+', color: 'text-secondary' },
-                    { label: 'LPU CGPA', value: '7.0', color: 'text-emerald-400' },
+                    
                   ].map((stat, idx) => (
                     <div key={idx} className="flex flex-col items-center gap-1.5">
                       <span className={`${stat.color} text-4xl font-black tracking-tighter leading-none`}>{stat.value}</span>
