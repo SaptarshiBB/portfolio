@@ -8,8 +8,7 @@ import experience from '../data/experience';
 
 const stats = [
   { value: '03+', label: 'Projects Built', icon: <Terminal size={24} className="text-primary" /> },
-  { value: '03+', label: 'Certifications', icon: <Cpu size={24} className="text-secondary" /> },
- ,
+  { value: '03+', label: 'Certifications', icon: <Cpu size={24} className="text-secondary" /> }
 
 ];
 
