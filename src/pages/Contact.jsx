@@ -120,7 +120,7 @@ export default function Contact() {
                       required
                       value={formState.name}
                       onChange={(e) => setFormState({ ...formState, name: e.target.value })}
-                      placeholder="e.g. John Doe"
+                      placeholder=""
                       className="w-full border rounded-xl px-5 py-4 focus:outline-none focus:border-primary transition-all"
                       style={{ backgroundColor: 'var(--bg-page)', color: 'var(--text-main)', borderColor: 'var(--border-main)' }}
                     />
@@ -132,7 +132,7 @@ export default function Contact() {
                       required
                       value={formState.email}
                       onChange={(e) => setFormState({ ...formState, email: e.target.value })}
-                      placeholder="john@example.com"
+                      placeholder=""
                       className="w-full border rounded-xl px-5 py-4 focus:outline-none focus:border-primary transition-all"
                       style={{ backgroundColor: 'var(--bg-page)', color: 'var(--text-main)', borderColor: 'var(--border-main)' }}
                     />
@@ -146,7 +146,7 @@ export default function Contact() {
                     rows="5"
                     value={formState.message}
                     onChange={(e) => setFormState({ ...formState, message: e.target.value })}
-                    placeholder="Tell me about your project or opportunity..."
+                    placeholder=""
                     className="w-full border rounded-xl px-5 py-4 focus:outline-none focus:border-primary transition-all resize-none"
                     style={{ backgroundColor: 'var(--bg-page)', color: 'var(--text-main)', borderColor: 'var(--border-main)' }}
                   ></textarea>
