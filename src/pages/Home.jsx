@@ -10,7 +10,7 @@ const stats = [
   { value: '03+', label: 'Projects Built', icon: <Terminal size={24} className="text-primary" /> },
   { value: '03+', label: 'Certifications', icon: <Cpu size={24} className="text-secondary" /> },
   { value: '100+', label: 'LeetCode Solved', icon: <BrainCircuit size={24} className="text-accent" /> },
-  { value: '7.0', label: 'LPU CGPA', icon: <Database size={24} className="text-primary" /> },
+
 ];
 
 const featuredProjects = projects.filter(p => p.featured);
