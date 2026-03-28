@@ -37,18 +37,6 @@ export default function Footer() {
           ))}
         </div>
         
-        {/* Minimal Bottom Info */}
-        <div className="flex flex-col items-center gap-4 text-center">
-          <p className="text-slate-500 text-sm font-medium tracking-wide">
-            © {new Date().getFullYear()} Saptarshi's Portfolio. All rights architected.
-          </p>
-          
-          <div className="flex items-center gap-3 px-4 py-2 rounded-full bg-white/5 border border-white/5 text-[10px] text-slate-600 font-mono uppercase tracking-[0.2em]">
-            <span>Crafted with</span>
-            <Heart size={10} className="text-red-500 fill-red-500 animate-pulse" />
-            <span>in West Bengal, India</span>
-          </div>
-        </div>
       </div>
     </footer>
   );

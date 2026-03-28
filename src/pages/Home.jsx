@@ -5,6 +5,7 @@ import ProjectCard from '../components/ProjectCard';
 import SectionTitle from '../components/SectionTitle';
 import projects from '../data/projects';
 import experience from '../data/experience';
+import AboutSection from '../components/AboutSection';
 
 const stats = [
   { value: '03+', label: 'Projects Built', icon: <Terminal size={24} className="text-primary" /> },
@@ -91,6 +92,7 @@ function HeroSection() {
     </section>
   );
 }
+
 
 function StatsSection() {
   const { ref, isVisible } = useScrollAnimation();
@@ -183,6 +185,7 @@ export default function Home() {
   return (
     <div className="mesh-bg min-h-screen overflow-x-hidden">
       <HeroSection />
+      <AboutSection />
       
       {/* Featured Projects Preview */}
       <section className="section-padding">
@@ -266,38 +269,6 @@ export default function Home() {
       </section>
 
       <SkillsSummary />
-
-      {/* Work Experience Section */}
-      <section className="section-padding relative overflow-hidden bg-white/[0.02]">
-        <div className="container-max">
-          <SectionTitle 
-            title="Professional Journey" 
-            subtitle="My experiences in tech, contributing to quality and innovation." 
-          />
-          
-          <div className="max-w-5xl mx-auto text-center">
-            {experience.map((exp, idx) => (
-              <div key={exp.id} className="mb-24 last:mb-0">
-                <div className="mb-6">
-                  <h3 className="text-xl sm:text-2xl font-black text-white tracking-tight uppercase leading-none mb-2 italic">{exp.role}</h3>
-                  <p className="text-primary font-bold text-sm tracking-[0.2em] uppercase opacity-70">{exp.company}</p>
-                </div>
-
-                <div className="max-w-4xl mx-auto">
-                    <div className="flex flex-col items-center space-y-4">
-                      {exp.highlights.map((item, i) => (
-                        <div key={i} className="flex items-center gap-3 text-slate-400 text-sm sm:text-base leading-relaxed font-medium italic opacity-80">
-                          <span className="text-primary text-xl">•</span>
-                          <span>{item}</span>
-                        </div>
-                      ))}
-                    </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       <ContactCTA />
     </div>

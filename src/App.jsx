@@ -9,6 +9,7 @@ import Certifications from './pages/Certifications';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Experience from './pages/Experience';
+import About from './pages/About';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -32,6 +33,7 @@ export default function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
           <Route path="*" element={
             <div className="min-h-screen flex flex-col items-center justify-center gap-6 pt-20 container-max">
               <div className="text-8xl">🤷</div>
