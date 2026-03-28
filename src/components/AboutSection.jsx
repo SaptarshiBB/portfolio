@@ -16,14 +16,14 @@ export default function AboutSection() {
     {
       school: 'Vivekananda Academy',
       degree: 'Intermediate (Higher Secondary)',
-      period: '2023',
+      period: '2020-2022',
       description: 'Completed secondary education with a focus on science and mathematics, building a strong analytical foundation.',
       icon: <BrainCircuit size={20} />
     },
     {
       school: 'Gospel Home School',
       degree: 'Matriculation (Secondary)',
-      period: '2021',
+      period: '2019-2020',
       description: 'Established fundamental academic excellence and developed an early interest in computing and technology.',
       icon: <Terminal size={20} />
     }
