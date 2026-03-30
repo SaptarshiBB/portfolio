@@ -53,7 +53,7 @@ export default function AboutSection() {
                   I'm a <span className="text-white font-bold">Full Stack Developer</span> dedicated to building efficient, modern, and user-centric web applications. My approach combines technical precision with a focus on solving real-world challenges through clean code and scalable architectures.
                 </p>
                 <p>
-                  With expertise in the <span className="text-primary font-bold">MERN stack</span> and modern frontend frameworks like <span className="text-secondary font-bold">Next.js</span>, I enjoy the process of turning complex ideas into functional, practical digital solutions that provide real value to users.
+                  With expertise in the <span className="text-primary font-bold">MERN stack</span> and modern frontend frameworks like <span className="text-secondary font-bold">React.js</span>, I enjoy the process of turning complex ideas into functional, practical digital solutions that provide real value to users.
                 </p>
                 <p>
                   I am constantly exploring new technologies and methodologies to stay at the forefront of the ever-evolving tech landscape, always striving for excellence in every project I undertake.
